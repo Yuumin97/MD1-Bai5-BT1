@@ -7,17 +7,12 @@
 </head>
 <body>
 <script>
-    let inputPhysics;
-    let inputChemistry;
-    let inputPiology;
-    inputPhysics = prompt("Nhập điểm Lý");
-    inputChemistry = prompt("Nhập điểm Hóa");
-    inputPiology = prompt("Nhập điểm Sinh");
-let Lý =parseInt(inputChemistry);
-let Hóa = parseInt(inputChemistry);
-let Sinh = parseInt(inputPiology);
-let DTB = (Lý + Hóa +Sinh) / 3 ;
-document.write("Điểm trung bình tổng 3 môn là: " + DTB)
+    Physics = +prompt("Nhập điểm Lý");
+    Chemistry = +prompt("Nhập điểm Hóa");
+    Piology = +prompt("Nhập điểm Sinh");
+let DTB =(Physics + Chemistry + Piology)/3;
+let DT =  Physics+Chemistry + Piology ;
+alert('Điểm Tổng = '+ DT + "\nĐiểm Trung Bình ="+ DTB);
 </script>
 </body>
 </html>
